@@ -1,0 +1,111 @@
+p{
+    position: absolute;
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/*House image*/
+.img1{
+    position: absolute;
+    width: 60%;
+    margin-left: 39.5%;
+    margin-top: 19%;
+}  
+
+/*white bar*/
+.headerbar{
+    position: absolute;
+    width: 83%;
+}
+
+/*blue logo*/
+.logo{
+    position: absolute;
+    width: 13%;
+    margin-top: 1.3%;
+    margin-left: 1%;
+}
+
+/*logo text*/
+.logo1{
+    position: absolute;
+    width: 30%;
+    margin-top: 2.1%;
+    margin-left: 16%;
+}
+
+/*nav menu*/
+.topnav{
+    position:absolute;
+    overflow: hidden;
+    /*border: crimson;
+    border-style: dashed;*/
+    top: 2%;
+    right: 1%;
+}
+
+/*nav menu text*/
+.topnav a {
+
+    color: #f2f2f2;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 150%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    /*border: yellow;
+    border-style: dashed;*/
+}
+
+/*blue bar*/ 
+
+.footnav{
+    position: absolute;
+    background-image: linear-gradient(to right,#2E363E, #374A5C);
+    /*border: yellow;
+    border-style: dashed;*/
+    margin-top: 55%;
+    width: 99%;
+    height: 20%;
+    
+}
+
+/*white logo*/
+.logo3{
+    width: 8%;
+    padding: 2% 2%;
+}
+
+.navlist{
+    position: absolute;
+    /*border: yellow;
+    border-style: dashed;*/
+    top: 2%;
+    left: 10%;
+    color: cyan;
+}
+
+li{
+    list-style-type:none;
+
+}
+li a{
+    font-size: 1.1em;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+
+
+
+
