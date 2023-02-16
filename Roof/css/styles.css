@@ -1,11 +1,7 @@
-p{
-    position: absolute;
-
-}
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-    position:fixed;
+    position:absolute;
     right: 0;
     bottom: 0;
     min-width: 100%; 
@@ -19,6 +15,16 @@ p{
     margin-left: 39.5%;
     margin-top: 19%;
 }  
+
+/*roof background*/
+.img2{
+    position: absolute;
+    width: 100%;
+    margin-top: 55%;
+}  
+
+
+
 
 /*white bar*/
 .headerbar{
@@ -59,11 +65,12 @@ p{
     padding: 8px;
     text-decoration: none;
     font-size: 150%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     /*border: yellow;
     border-style: dashed;*/
 }
+
 
 /*blue bar*/ 
 
@@ -78,16 +85,12 @@ p{
     
 }
 
-/*white logo*/
-.logo3{
-    width: 8%;
-    padding: 2% 2%;
-}
 
+/*
 .navlist{
     position: absolute;
-    /*border: yellow;
-    border-style: dashed;*/
+    border: yellow;
+    border-style: dashed;
     top: 2%;
     left: 10%;
     color: cyan;
@@ -104,6 +107,151 @@ li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 30px;
 }
+
+*/
+
+
+
+
+
+
+.container{
+    position:absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 55%;
+}
+
+.container-left{
+    width: 60%;
+
+}
+
+/*white logo*/
+.logo3{
+    width: 13%;
+    margin-left: 5%;
+    margin-top: 10%;
+    position: absolute;
+}
+.line{
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 17%;
+    position: absolute;
+
+}
+
+h1{
+    font-size: 2.8em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 23%;
+    margin-left: 37%;
+    color: #f2f2f2;
+}
+
+p.p1{
+    color: #fec300;
+    margin-top: 17%;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+}
+
+p.p2{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+p.p3{
+    font-size: 1.5em;
+    text-align: center;
+    color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+}
+
+.icon-insulation{
+    width: 60%;
+    margin-left: 22%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+.container-right{
+    width: 50%;
+    text-align: center;
+    
+}
+h2{
+    position: relative;
+    font-size: 1.6em;
+    color: #fec300;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+.icons{
+    width: 20%;
+    text-align: center;
+}
+
+
+.section{
+    position:absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 125%;
+    background-color: #fec300;
+}
+.img3{
+    position: absolute;
+    width: 100%;
+}
+.p4{
+    position: relative;
+    color: #374A5C;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7%;
+    left: 62%;
+    font-weight: bolder;
+}
+.material-icons{
+    position: relative;
+    margin-top: 15%;
+    left: 30%;
+    
+}
+p.p-section{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    left: 62%;
+    margin-top: 15%;
+
+}
+
+
+.container-first{
+    background-color: #fec300;
+
+}
+
+
 
 
 
