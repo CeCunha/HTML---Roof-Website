@@ -91,6 +91,7 @@ li a{
 .container2{
     display: flex;
     background-image: url(/Roof/images/roof2.png);
+    margin-top: -0.4%;
 }
 .container-left{
     width: 60%;
@@ -162,7 +163,9 @@ h2{
     text-align: center;
 }
 
-/* -----------------------------------------------------------------------------------------------*/
+
+
+/* Section -------------------------------------------------------------------------------------*/
 
 .sub-section{
     position: absolute;
@@ -185,15 +188,96 @@ ul{
     font-size: 1.7vw;
     font-family: 'Montserrat', sans-serif;
     display: grid;
-    gap:15px;
+    gap:1.2vw;
     list-style-type: none;
     margin-left: 10%;
-
-  
- 
-
 }
 
+
+/* Container3 -------------------------------------------------------------------------------------*/
+
+.container3{
+    margin-top: -0.4%;
+}
+
+.sub-container3{
+    position: absolute;
+    left: 43%;
+}
+
+.p5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vw;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: -0.5vw;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.461);
+    text-align: center;    
+}
+
+.p6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5vw;
+    color: white;
+    top: -10%;
+    margin-top: -22%;
+    text-align: center;
+}
+
+.p7{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9.3vw;
+    color: #fec300;
+    top: -10%;
+    margin-top: -10%;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.238);
+}
+
+/* Container4 -------------------------------------------------------------------------------------*/
+
+.container4{
+    display: flex;
+    height: 10vw;
+}
+
+.container4-left{
+    width: 30%;
+    text-align: center;
+}
+.container4-right{
+    width: 72%;
+}
+
+.p8{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.8vw;
+}
+
+.material-icons{
+    padding-top: 3%;
+    margin-left: 3%;
+}
+
+.btn {
+    background-color: #ff4e13;
+    border: none;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: -3%;
+    transition: 0.3s;
+    font-family:'Montserrat', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #000000;
+    color: white;
+  }
 
 
 
