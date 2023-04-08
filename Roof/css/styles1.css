@@ -1,0 +1,121 @@
+.sky{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    
+}
+.row{
+    position: relative;
+    /* margin-top: 100px; */
+}
+
+.navbar{
+    background-image: linear-gradient(to right, 
+    rgba(255, 255, 255, 0), 
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.501),
+    rgba(255, 255, 255)
+    );
+    
+
+}
+
+#content{
+    position: relative;
+    background-color: white;
+}
+
+#content-col-left{
+    background-image: linear-gradient(to top right, #32455a,#131b24);
+    box-shadow: 10px 0 10px -2px rgba(0, 0, 0, 0.342);
+
+}
+
+#services{
+    position: relative;
+    background-color: blue;
+
+}
+
+#services-carousel{
+    /* margin: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#services-carousel-inner{
+    border: 8px solid white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.235);
+    
+}
+
+#estimate{
+    position: relative;
+    background-image: url(/images/roof4.jpg);
+    background-size: 100%;
+}
+
+/* .estimate-toronto{
+    
+    width: 100%;
+} */
+
+#estimate-text{
+    padding-top: 8%;
+    padding-bottom: 6%;
+
+    
+}
+
+.p5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vw;
+    font-weight: bolder;
+    color: white;
+    /* letter-spacing: -0.5vw; */
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.461);
+    text-align:right;
+    margin: 4% 0 0 0;
+    padding: 0 7.5% 0 0;  
+    
+
+}
+.p6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    color: white;
+    text-align: right;
+    margin: -2% 0 0 0;
+    padding: 0 12% 0 0;
+    
+}
+
+.p7{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+    color: #fec300;
+    font-weight: bold;
+    text-align: right;
+    margin: -2% 0 0 0;
+    padding: 0 12.5% 0 0;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.238);
+}
+
+#roofing{
+    background-color: aqua;
+    position: relative;
+}
+
+
+
+
+
